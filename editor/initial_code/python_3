@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def contagem_memoria(n):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(contagem_memoria(5))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert contagem_memoria(5) == [(0, 1), (1, 2), (2, 4), (3, 8), (4, 16)]
+assert contagem_memoria(3) == [(0, 1), (1, 2), (2, 4)]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
